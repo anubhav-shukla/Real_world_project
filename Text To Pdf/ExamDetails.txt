@@ -1,0 +1,17 @@
+ 
+{Date} {Shift} [Login Reporting Time] (Exam Timing) #PaperCode#  \Type/ $Subject$ <Course> "Sem."
+
+1. Friday, August 06, 2021 E 03.00PM 03.30PM-05.00PM KCS601 REG Software Engineering CS-IT-GR 6
+
+2. Tuesday, August 10, 2021 E 03.00PM 03.30PM-05.00PM KOE068 REG Software Project Management CS-IT-GR 6
+
+3. Thursday, August 12, 2021 E 03.00PM 03.30PM-05.00PM KCS064 REG Data Compression CS-IT-GR 6
+
+4. Saturday, August 14, 2021 E 03.00PM 03.30PM-05.00PM KCS602 REG Web Technology CS-IT-GR 6
+
+5. Monday, August 16, 2021 E 03.00PM 03.30PM-05.00PM KCS603 REG Computer Networks CS-IT-GR 6
+
+6. Wednesday, August 18, 2021 E 03.00PM 03.30PM-05.00PM KNC602 REG Indian Tradition, Culture & Society CS-IT-GR 6
+
+
+
