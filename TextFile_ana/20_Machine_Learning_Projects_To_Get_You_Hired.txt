@@ -1,0 +1,156 @@
+url: https://medium.com/projectpro/20-machine-learning-projects-that-will-get-you-hired-in-2021-a89473f2d2c7
+
+Title: 20 MACHINE LEARNING PROJECTS TO GET YOU HIRED
+ProjectPro
+
+INTRODUCTION
+
+20 Machine Learning Projects That Will Get You Hired in 2021Khushbu ShahFollowJul 29 · 17 min read
+The AI and Machine Learning industry is booming like never before. As of 2021, the increase in AI usage across businesses will create $2.9 trillion of business value. AI has automated many industries across the globe and changed the way they operate. Most large companies incorporate AI to maximize productivity in their workflow, and industries like marketing and healthcare have undergone a paradigm shift due to the consolidation of AI.
+Image Source : Unsplash
+Due to this, there has been an increasing demand in the past few years for AI professionals. There has almost been a 100% increase in AI and machine learning related job postings from 2015 to 2018. This number has grown since and is projected to rise in 2021.
+If you are looking to break into the machine learning industry, the good news is that there is no shortage of jobs available. Companies need a talented workforce that is capable of pioneering the shift to machine learning. However, the job market is infiltrated by people who want to break into the data industry. Since no specific degree program catered towards students who want to learn machine learning, many aspiring ML practitioners are self-taught.
+There are over 4 million students enrolled in Andrew Ng’s machine learning online course.
+Unfortunately, enrolling on online courses or taking a machine learning Bootcamp does help you learn the theoretical concepts but does not prepare you for a job in the industry. There is a lot more hands-on work to be done, having learnt the theory. Let’s say you know the basics of machine learning algorithms — you understand how regression and classification models work, and you know the different types of clustering methods.
+How are you going to practice the skills you learnt to solve a real-life problem? The simple answer is -Practice, Practice, and Practice diverse machine learning projects.
+Once you are done learning theoretical concepts, you should start working on AI and machine learning projects. These projects will give you the practice necessary to hone your skills in the field, and at the same time, are a great value add to your machine learning portfolio.
+Without much ado, let’s explore some ML project ideas that will not just make your portfolio look good but will also significantly improve your machine learning skills. This is a curated list of some of the best machine learning projects for students, aspiring machine learning practitioners, and individuals from non-technical domains. You can work on these projects regardless of your background, as long as you have some coding and know-how of machine learning skills. This is a list of beginner and advanced level machine learning projects.
+If you are new to the data industry and have little experience with real-life projects, start with beginner-level ML projects before moving on to the more challenging ones.
+
+MACHINE LEARNING PROJECTS FOR BEGINNERS
+1. Kaggle Titanic Prediction
+The first project on this list is one of the most straightforward ML projects you can take on. This project is recommended to complete beginners in the data industry. The Titanic dataset is available on Kaggle, and the link to download it is given below.
+This dataset is of passengers who travelled on the titanic. It has details like passenger age, ticket fare, cabin, and gender. Based on this information, you will need to predict whether these passengers survived or not.
+It is a simple binary classification problem, and all you need to do is predict if a particular passenger survived. The best thing about this dataset is that all the pre-processing is done for you. You have a nice, clean dataset to train your machine learning model.
+Since this is a classification problem, you can choose to use algorithms like logistic regression, decision trees, and random forests to build the predictive model. You can also choose gradient boosting models like an XGBoost classifier for this beginner level machine learning project to get better results.
+Dataset: Kaggle Titanic Dataset
+2. House Price Prediction
+House prices data is also great to start with if you are a beginner at machine learning. This project will use the house pricing dataset available on Kaggle. The target variable in this dataset is the price of a particular house, which you will need to predict using information like house area, number of bedrooms, number of bathrooms, and utilities.
+It is a regression problem, and you can use techniques like linear regression to build the model. You can also take a more advanced approach and use a random forest regressor or gradient boosting to predict house prices.
+This dataset has 80 columns, excluding the target variable. You will need to employ some dimensionality reduction techniques to hand-pick features since adding too many variables can make your model perform poorly.
+There are also many categorical variables in the dataset, so you need to properly deal with them using techniques like one-hot encoding or label-encoding.
+After building your model, you can submit your predictions to the house pricing competition in Kaggle, as it’s still open. The best RMSE achieved by competitors is 0, and many people have achieved good results like 0.15 with the help of regression and gradient boosting techniques.
+Dataset: Kaggle House Price Prediction Dataset
+3. Wine Quality Prediction
+The wine quality prediction dataset is also very popular amongst beginners in the data industry. In this project, you will be using fixed acidity, volatile acidity, alcohol, and density to predict the quality of red wine.
+This can be treated as either a classification or regression problem. The wine quality variable you need to predict in the dataset ranges from 0–10, so you can build a regression model to predict. Another approach you can take is to break down the values (from 0–10) into discrete intervals and convert them into categorical variables. You can create three categories, for example — low, medium, and high.
+You can then build a decision tree classifier or any classification model to make the prediction. It is a relatively clean and straightforward dataset to practice your regression and classification machine learning skills.
+Dataset: Kaggle Red Wine Quality Dataset
+4. Heart Disease Prediction
+If you are looking to explore a dataset in the healthcare industry, this is a great beginner level dataset to start with. This dataset is used to predict the 10-year risk of CHD (Coronary Heart Disease). The dependent variables in this dataset are the risk factors of heart disease, including diabetes, smoking, high blood pressure, and high cholesterol levels.
+The independent variable is the 10-year risk of CHD. It is a binary classification problem, and the target variable is either 0 or 1–0 for the patients who never developed heart disease and 1 for the patients who did. You can perform some feature selection on this dataset to identify features that most contribute towards heart risk. Then, you can fit a classification model onto the independent variables.
+This dataset is highly imbalanced because many of the patients in this dataset did not develop heart disease. An imbalanced dataset needs to be handled using the right feature engineering techniques like oversampling, weight-tuning, or undersampling. If not dealt with properly, you will end up with a model that simply predicts the majority class for each data point and cannot identify patients who did develop heart disease. This is an excellent dataset for you to practice your feature engineering and machine learning skills.
+Dataset: Kaggle Heart Disease Dataset
+5. MNIST Digit Classification
+The MNIST dataset is your stepping stone into the field of deep learning. This dataset consists of grayscale images of handwritten digits from 0 to 9. Your task would be to identify the digit using a deep learning algorithm. This is a multi-class classification problem with ten possible output classes. You can use a CNN (Convolutional Neural Network) to perform this classification.
+The MNIST dataset is built within the Keras library in Python. All you need to do is install Keras, import the library, and load the dataset. This dataset has around 60,000 images, so that you can use about 80% of these images for training and another 20% for testing.
+Dataset: Kaggle Digit Recognizer Dataset
+6. Sentiment Analysis of Twitter Data
+There are many Twitter sentiment analysis datasets available on Kaggle. One of the most popular datasets is called sentiment140, which contains 1.6 million pre-processed Tweets. This is a great dataset to start with if you are new to sentiment analysis.
+These Tweets have been annotated, and the target variable is the sentiment. The unique values in this column are 0 (negative), 2 (neutral), and 4 (positive).
+After pre-processing these Tweets and converting them into vectors, you can use a classification model to train them with their associated sentiment. You can use algorithms like logistic regression, decision tree classifier, or XGBoost classifier for this task.
+Another alternative is to use a deep learning model like LSTM to come up with sentiment prediction. However, this is a slightly more challenging approach and falls into the advanced project category.
+You can also use this labelled dataset as a base for future sentiment analysis tasks.
+If you have any Tweets you want to collect and perform sentiment analysis on, you can use a model that has been previously trained on sentiment140 to make future predictions.
+Dataset: Kaggle Sentiment140 Dataset
+7. Pima Indian Diabetes Prediction
+The Pima Indian Diabetes Dataset is used to predict whether a patient has diabetes based on diagnostic measurements.
+Based on variables like BMI, age, and insulin, the model will predict diabetes in patients. This dataset has nine variables — eight independent variables and one target variable.
+The target variable is ‘diabetes’, so you will predict 1 for the presence of diabetes or 0 for the absence of diabetes.
+This is a classification problem to experiment with models like logistic regression, decision tree classifier or random forest classifier.
+All the independent variables in this dataset are numeric, so this is a great dataset to start with if you have minimal feature engineering experience.
+This is a Kaggle dataset open to beginners. There are many tutorials online that walk you through coding the solution in Python and R. These notebook tutorials are a great way to learn and get your hands dirty so you can move on to more complex projects.
+Dataset: Kaggle Pima Indian Diabetes Dataset
+8. Breast Cancer Classification
+The breast cancer classification dataset on Kaggle is another excellent way to practice your machine learning and AI skills.
+Most supervised machine learning problems in the real world are classification problems like this one. A key challenge in breast cancer identification is the inability to distinguish between benign (non-cancerous) and malignant (cancerous) tumours. The dataset has variables like “radius_mean” and “area_mean” of the tumour, and you will need to classify based on these features if a tumour is cancerous or not. This dataset is relatively easy to work with since there is no need to do any significant data pre-processing. It is also a well-balanced dataset, making your task more manageable as you don’t need to do much feature engineering.
+Training a simple logistic regression classifier on this dataset can give you accuracy as high as 0.90.
+Dataset: Kaggle Breast Cancer Classification Dataset
+9. TMDB Box Office Prediction
+This Kaggle dataset is a great way to practice your regression skills. It consists of around 7000 movies, and you will need to use the variables present to predict the movie’s revenue.
+Data points present include cast, crew, budget, languages, and release dates. There are 23 variables in the dataset, one of which is the target variable.
+A basic linear regression model can give you an R-squared of over 0.60, so you can use this as your baseline prediction model. Try to beat this score using techniques like XGBoost regression or Light GBM.
+This dataset is slightly more complex than the previous one since some columns have data present in nested dictionaries. You need to do some additional pre-processing to extract this data in a usable format to train a model on it.
+Revenue forecasting is a great project to showcase on your portfolio, as it provides business value to a variety of domains outside the film industry.
+Dataset: Kaggle TMDB Box Office Prediction Dataset
+10. Customer Segmentation in Python
+The customer segmentation dataset on Kaggle is a great way to get started with unsupervised machine learning. This dataset consists of customer details like their age, gender, annual income, and spending score.
+You need to use these variables to build customer segments. Customers who are alike should be grouped into similar clusters. You can use algorithms like K-Means clustering or hierarchical clustering for this task. Customer segmentation models can provide business value.
+Companies often want to segregate their customers to come up with different marketing techniques for each customer type.
+The main goals of this dataset include:
+Achieving customer segmentation using machine learning techniquesIdentify your target customers for different marketing strategiesUnderstand how marketing strategies work in the real world
+Building a clustering model for this task can help your portfolio stand out, and segmentation is a great skill to have if you are looking to get an AI-related job in the marketing industry.
+Dataset: Kaggle Mall Customer Segmentation Dataset
+
+INTERMEDIATE/ADVANCED LEVEL MACHINE LEARNING PROJECTS FOR YOUR RESUME
+Once you’re done working on simple machine learning projects like the ones listed above, you can move on to more challenging projects:
+1. Sales Forecasting
+Time-series forecasting is a machine learning technique used very often in the industry. The use of past data to predict future sales has a large number of business use cases. The Kaggle Demand Forecasting dataset can be used to practice this project.
+This dataset has 5 years of sales data, and you will need to predict sales for the next three months. There are ten different stores listed in the dataset, and there are 50 items at each store.
+To predict sales, you can try out various methods — ARIMA, Vector Autoregression, or deep learning. One method you can use for this project is to measure the increase in sales for each month and record it. Then, build the model on the difference between the previous month and the present month sales. Taking into account factors like holidays and seasonality can improve the performance of your machine learning model.
+Dataset: Kaggle Store Item Demand Forecasting
+2. Customer Service Chatbot
+A customer service chatbot uses AI and machine learning techniques to reply to customers, taking the role of a human representative. A chatbot should be able to answer simple questions to satisfy customer needs.
+There are presently three kinds of chatbots that you can build:
+Rule-Based Chatbots — These chatbots aren’t intelligent. They are fed a set of pre-defined rules and only reply to users based on these rules. Some chatbots are also provided with a pre-defined set of questions and answers and cannot answer queries that fall outside this domain.Independent Chatbots — Independent chatbots utilise machine learning to process and analyse a user’s request and provide responses accordingly.NLP Chatbots — These chatbots can understand patterns in words and distinguish between different word combinations. They are the most advanced of all three chatbot types, as they can come up with what to say next based on the word patterns they were trained on.
+An NLP chatbot is an interesting machine learning project idea. You will need an existing corpus of words to train your model on, and you can easily find Python libraries to do this. You can also have a pre-defined dictionary with a list of question and answer pairs you’d like to train your model.
+3. Wildlife Object Detection System
+If you live in an area with frequent wild-animal sightings, it is helpful to implement an object detection system to identify their presence in your area. Follow these steps to build a system like this -
+Install cameras in the area you want to monitor.Download all video footage and save them.Create a Python application to analyse incoming images and identify wild animals.
+Microsoft has built an Image Recognition API using data collected from wildlife cameras. They released an open-source pre-trained model for this purpose called a MegaDetector.
+You can use this pre-trained model in your Python application to identify wild animals from the images collected. It is one of the most exciting ML projects mentioned so far and is pretty simple to implement due to the availability of a pre-trained model for this purpose.
+API: MegaDetector
+4. Spotify Music Recommender System
+Spotify uses AI to recommend music to its users. You can try building a recommender system based on publicly available data on Spotify.
+Spotify has an API that you can use to retrieve audio data — you can find features like the year of release, key, popularity, and artist. To access this API in Python, you can use a library called Spotipy.
+You can also use the Spotify dataset on Kaggle that has around 600K rows. Using these datasets, you can suggest the best alternative to each user’s favourite musician. You can also come up with song recommendations based on the content and genre preferred by each user.
+This recommender system can be built using K-Means clustering — similar data points will be grouped. You can recommend songs with a minimal intra-cluster distance between them to the end-user.
+Once you have built the recommender system, you can also turn it into a simple Python app and deploy it. You can get users to enter their favourite songs on Spotify, then display your model recommendations on the screen that have the highest similarity to the songs they enjoyed.
+Dataset: Kaggle Spotify Dataset
+5. Market Basket Analysis
+Market Basket Analysis is a popular technique used by retailers to identify items that can be sold together.
+For example:
+A couple of years back, a research analyst identified a correlation between the sales of beer and diapers. Most of the time, whenever a customer walked into the store to buy a beer, they also bought diapers together.
+Due to this, stores started selling beer and diapers together on the same aisle as a marketing strategy to increase sales. And it worked.
+It was assumed that beer and diapers had a high correlation as males frequently bought them together. Men would walk into the store to buy a beer, along with several other household items for their family (including diapers). This seems like a pretty impossible correlation, but it did happen.
+Market Basket Analysis can help companies identify hidden correlations between items that are frequently bought together. These stores can then position their items in a way that allows people to find them easier.
+You can use the Market Basket Optimization dataset on Kaggle to build and train your model. The most commonly used algorithm used to perform Market Basket Analysis is the Apriori algorithm.
+Dataset: Kaggle Market Basket Optimization Dataset
+6. NYC Taxi Trip Duration
+The dataset has variables that include start and end coordinates of a taxi trip, time, and the number of passengers. The goal of this ML project is to predict trip duration with all these variables. It is a regression problem.
+Variables like time and coordinates need to be pre-processed appropriately and converted into an understandable format. This project isn’t as straightforward as it seems. This dataset also has some outliers that make prediction more complex, so you will need to handle this with feature engineering techniques.
+The evaluation criteria for this NYC Taxi Trip Kaggle Competition is RMSLE or the Root Mean Squared Log Error. The top submission on Kaggle received an RMSLE score of 0.29, and Kaggle’s baseline model has an RMSLE of 0.89.
+You can use any regression algorithm to solve this Kaggle project, but the highest performing competitors of this challenge have either used gradient boosting models or deep learning techniques.
+Dataset: Kaggle NYC Taxi Trip Duration Dataset
+7. Real-Time Spam Detection
+In this project, you can use machine learning techniques to distinguish between spam (illegitimate) and ham (legitimate) messages.
+To achieve this, you can use the Kaggle SMS Spam Collection dataset. This dataset contains a set of approximately 5K messages that have been labelled as spam or ham.
+You can take the following steps to build a real-time spam detection system:
+Use Kaggle’s SMS Spam Collection dataset to train a machine learning model.Create a simple chat-room server in Python.Deploy the machine learning model on your chat-room server and ensure that all incoming traffic passes through the model.Only allow messages to go through if they are classified as ham. If they are spam, return an error message instead.
+To build the machine learning model, you first need to pre-process the text messages present in Kaggle’s SMS Spam Collection dataset. Then, convert these messages into a bag of words so that they can easily be passed into your classification model for prediction.
+Dataset: Kaggle SMS Spam Collection Dataset
+8. Myers-Briggs Personality Prediction App
+You can create an app to predict a user’s personality type based on what they say.
+The Myers-Briggs type indicator categorises individuals into 16 different personality types. It is one of the most popular personality tests in the world.
+If you try to find your personality type on the Internet, you will find many online quizzes. After answering around 20–30 questions, you will be assigned to a personality type.
+However, in this project, you can use machine learning to predict anyone’s personality type just based on one sentence.
+Here are the steps you can take to achieve this:
+Build a multi-class classification model and train it on the Myers-Briggs dataset on Kaggle. This involves data pre-processing (removing stop-words and unnecessary characters) and some feature engineering. You can use a shallow learning model like logistic regression or a deep learning model like an LSTM for this purpose.You can create an application that allows users to enter any sentence of their choice.Save your machine learning model weights and integrate the model with your app. After the end-user enters a word, display their personality type on the screen after the model makes a prediction.
+Dataset: Kaggle MBTI Type Dataset
+9. Mood Recognition System + Recommender System
+Have you ever been sad and felt like you needed to watch something funny to cheer you up? Or have you ever felt so frustrated you needed to unwind and watch something relaxing?
+This project is a combination of two smaller projects.
+You can build an app that recognises a user’s mood based on live web footage and a movie suggestion based on the user’s expression.
+To build this, you can take the following steps:
+Create an app that can take in a live video feed.Use Python’s face recognition API to detect faces and emotions on objects in the video feed.After classifying these emotions into various categories, start building the recommender system. This can be a set of hardcoded values for each emotion, which means you don’t need to involve machine learning for the recommendations.Once you’re done building the app, you can deploy it on Heroku, Dash, or a web server.
+API: Face Recognition API
+10. YouTube Comment Sentiment Analysis
+In this project, you can create a dashboard analysing the overall sentiment of popular YouTubers.
+Over 2 billion users watch YouTube videos at least once a month. Popular YouTubers garner hundreds of billions of views with their content. However, many of these influencers have come under fire due to controversies in the past, and public perception is constantly changing.
+You can build a sentiment analysis model and create a dashboard to visualise sentiments around celebrities over time.
+To build this, you can take the following steps:
+Scrape comments of the videos by the YouTubers you want to analyse.Use a pre-trained sentiment analysis model to make predictions on each comment.Visualise the model’s predictions on a dashboard. You can even create a dashboard app using libraries like Dash (Python) or Shiny (R).You can make the dashboard interactive by allowing users to filter sentiment by time frame, name of YouTuber, and video genre.
+API: YouTube Comment Scraper
+The machine learning industry is large and full of opportunities. If you want to break into the industry with no formal educational background, the best way to show that you have the skills necessary to do the job is through projects.
+The machine learning aspect of most projects listed above is pretty simple. Due to the democratisation of machine learning, the model building process can be achieved easily through pre-trained models and APIs.
+Open source artificial intelligence projects like Keras and FastAI have also helped speed up the model building process. The tricky part of these machine learning and data science projects is the data collection, pre-processing, and deployment. If you land a job in machine learning, most algorithms will be pretty simple to build. It will only take a day or two to create a sales prediction model. You will spend most of your time finding appropriate data sources and putting your models into production to derive business value.
