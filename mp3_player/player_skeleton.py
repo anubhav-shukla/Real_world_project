@@ -1,10 +1,4 @@
-#----------------------------------------------------------------------
-# player_skeleton.py
-#
-# Created: 04/14/2010-04/15/2010
-#
-# Author: Mike Driscoll - mike@pythonlibrary.org
-#----------------------------------------------------------------------
+
 
 import os
 import wx
@@ -14,7 +8,6 @@ from wx.lib.agw.shapedbutton import SBitmapButton, SBitmapToggleButton
 dirName = os.path.dirname(os.path.abspath(__file__))
 bitmapDir = os.path.join(dirName, 'bitmaps')
 
-########################################################################
 class MediaPanel(wx.Panel):
     """"""
 
